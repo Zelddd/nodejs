@@ -51,7 +51,7 @@
                         <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#editItemModal">
                             Edit
                         </button>                    
-                    </div>
+                    </div>  
                     <div class="card-body">
                         <h3 class="card-title">Spaghetti Bolognese</h3>
                         <p class="card-text">$7.20</p>
@@ -129,7 +129,7 @@
                 <h4 class="modal-title">Add item</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body">
+            <div id = "addingfood" class="modal-body">
                 <ul class="list-group">
                     <li class="list-group-item"><button type="button" class="btn btn-light">Add picture</button></li>
                     <li class="list-group-item"><button type="button" class="btn btn-light">Add group name</button></li>
@@ -161,8 +161,10 @@
                 </ul> 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                <button id="AddButton"  type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
 </div>
+
+<script src="./routes/kitchen/dashboard/data.ts"></script>
